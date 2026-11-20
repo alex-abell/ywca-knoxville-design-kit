@@ -8,7 +8,7 @@ Give it to your AI chat assistant. Then your flyer, slide, chart or web page can
 
 It works with Claude, ChatGPT, Microsoft Copilot, Gemini, or any other assistant.
 
-**Please read this first.** This kit is an unofficial draft that YWCA has not reviewed, and where the kit and YWCA staff disagree, staff are right.
+**Please read this first.** Never paste resident names, records or export files into an AI assistant. This kit is an unofficial draft that YWCA has not reviewed. Where the kit and YWCA staff disagree, staff are right.
 
 The Power BI theme file has not been tested in Power BI Desktop yet.
 
@@ -43,7 +43,7 @@ Follow the design kit I gave you. Write a title for a chart that shows this: [sa
 **2. A one-page program summary for a funder**
 
 ```
-Follow the design kit I gave you. Draft a one-page summary of [program name] for a funder, using the kit's fact sheet layout and its voice rules. Write [NUMBER] wherever you need a number from me, and do not make any up.
+Follow the design kit I gave you. Draft a one-page summary of [program name] for a funder, using the kit's fact sheet layout and its voice rules. Write the word NUMBER wherever you need a number from me, and do not make any up.
 ```
 
 **3. A slide**
@@ -88,7 +88,7 @@ Assistants are fast and sure of themselves. They are also sometimes wrong.
 
 Check these five kit rules every time.
 
-- **Persimmon text must be big.** Persimmon is the kit's signal color. It is for text only at 24px and up, or bold text at 19px and up. (px means pixels, the dots on a screen.)
+- **Persimmon text must be big.** Persimmon is the kit's signal color. Use it for text only when the text is 24px or larger, or bold and 19px or larger. (px means pixels, the dots on a screen.)
 
 - **One persimmon bar per chart.** The bar or line that carries the point is persimmon, and the rest are gray.
 
