@@ -69,7 +69,7 @@ YWCA's name, logo, and brand belong to YWCA. See [`NOTICE.md`](NOTICE.md).
 
 The kit was made for the Keys of Hope dashboard project at Hack for Nonprofits 2026 (121 Tech Hub, Knoxville, November 19, 2026). Its sources are the 2018 YWCA USA brand guide, ywca.org, and ywcaknox.com. `guides/brand-rules.md` lists which part came from which source.
 
-- The story of the day: https://abellminded.com/clients/ywca/keys-of-hope
+- The story of the day: https://abellminded.com/work/ywca/keys-of-hope
 - The dashboard and Power BI report: https://github.com/alex-abell/keys-of-hope-dashboard
 
 Thank you to the team: Amy Shelton, Julianna Cutter, Bryan Terrill, Robert Ormand, and Alex Abell.
