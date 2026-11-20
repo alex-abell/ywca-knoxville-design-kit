@@ -1,0 +1,87 @@
+{
+  "name": "YWCA Knoxville (unofficial draft)",
+  "dataColors": [
+    "#FA4616",
+    "#808080",
+    "#333333",
+    "#666666",
+    "#000000"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#000000",
+  "tableAccent": "#FA4616",
+  "good": "#333333",
+  "neutral": "#808080",
+  "bad": "#666666",
+  "maximum": "#333333",
+  "center": "#808080",
+  "minimum": "#949494",
+  "null": "#949494",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Arial Black",
+      "fontSize": 30,
+      "color": "#FA4616"
+    },
+    "title": {
+      "fontFace": "Arial Black",
+      "fontSize": 12,
+      "color": "#000000"
+    },
+    "header": {
+      "fontFace": "Arial",
+      "fontSize": 11,
+      "color": "#000000"
+    },
+    "label": {
+      "fontFace": "Arial",
+      "fontSize": 10,
+      "color": "#333333"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  },
+  "firstLevelElements": "#000000",
+  "secondLevelElements": "#333333",
+  "thirdLevelElements": "#CCCCCC",
+  "fourthLevelElements": "#666666"
+}

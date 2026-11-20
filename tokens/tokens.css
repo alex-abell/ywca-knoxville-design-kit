@@ -1,0 +1,43 @@
+/* YWCA Knoxville design kit (unofficial draft). Made from tokens.json by scripts/build_kit.py. Do not edit by hand. */
+:root {
+  /* Color */
+  --persimmon: #fa4616;
+  --on-persimmon: var(--black);
+  --black: #000000;
+  --white: #ffffff;
+  --gray-10: #ebebeb;
+  --gray-20: #cccccc;
+  --gray-50: #808080;
+  --gray-60: #666666;
+  --gray-80: #333333;
+  --ground: var(--white);
+  --ink: var(--black);
+  --ink-muted: var(--gray-60);
+  --rule: var(--gray-20);
+  /* Type families */
+  --font-display: "avenir-next-pro-heav", "Avenir Next", "Avenir Next Pro", "Arial Black", Arial, sans-serif;
+  --font-body: "Source Sans 3", "Source Sans Pro", Arial, sans-serif;
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 64px;
+  /* Corners */
+  --radius-none: 0;
+  --radius-pill: 15px;
+}
+
+/* Type styles. Display styles are set in capitals. */
+.t-display { font-family: var(--font-display); font-size: 80px; line-height: 96px; font-weight: 900; text-transform: uppercase }
+.t-stat { font-family: var(--font-display); font-size: 64px; line-height: 64px; font-weight: 900; text-transform: uppercase }
+.t-headline { font-family: var(--font-display); font-size: 40px; line-height: 44px; font-weight: 900; text-transform: uppercase }
+.t-heading { font-family: var(--font-display); font-size: 25px; line-height: 30px; font-weight: 900; text-transform: uppercase }
+.t-button { font-family: var(--font-display); font-size: 19px; line-height: 24px; font-weight: 900; text-transform: uppercase }
+.t-deck { font-family: var(--font-body); font-size: 24px; line-height: 32px; font-weight: 400 }
+.t-stat-label { font-family: var(--font-body); font-size: 20px; line-height: 26px; font-weight: 700 }
+.t-body { font-family: var(--font-body); font-size: 18px; line-height: 30px; font-weight: 400 }
+.t-nav { font-family: var(--font-body); font-size: 16px; line-height: 16px; font-weight: 600; text-transform: uppercase }
+.t-small { font-family: var(--font-body); font-size: 16px; line-height: 24px; font-weight: 400 }
+.t-label { font-family: var(--font-body); font-size: 14px; line-height: 20px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase }

@@ -1,0 +1,8 @@
+# Never commit resident data, exports, or reports that hold data.
+*.xlsx
+*.xls
+*.csv
+*.pbix
+exports/
+.DS_Store
+Thumbs.db

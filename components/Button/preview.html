@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Button</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<style>*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:var(--space-3);background:var(--ground);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:30px}
+h1,h2,h3,p{margin:0}
+.hd{font:900 25px/30px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.note{font-size:16px;line-height:24px;color:var(--ink-muted);margin-top:var(--space-3)}
+a,button,input{font-family:inherit}
+:focus-visible{outline:3px solid var(--black);outline-offset:2px;box-shadow:0 0 0 2px var(--white)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font:900 19px/24px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-decoration:none;color:var(--white);background:var(--persimmon);border:2px solid var(--persimmon);border-radius:var(--radius-none);padding:var(--space-2) var(--space-4);cursor:pointer}
+.btn:hover{background:var(--black);border-color:var(--black)}
+.row{display:flex;gap:var(--space-4);align-items:center;flex-wrap:wrap}
+.dark{background:var(--black);padding:var(--space-3)}
+.link{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--persimmon);text-decoration-thickness:3px;text-underline-offset:4px}
+.link:hover{text-decoration-color:var(--black)}
+</style></head><body>
+<div class="row">
+<a class="btn" href="#">Learn more</a>
+<div class="dark"><a class="btn" href="#">Subscribe</a></div>
+<a class="link" href="#">Jenny Boyd Keys of Hope Program</a>
+</div>
+</body></html>

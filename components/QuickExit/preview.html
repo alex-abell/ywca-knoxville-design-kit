@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QuickExit</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<style>*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:var(--space-3);background:var(--ground);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:30px}
+h1,h2,h3,p{margin:0}
+.hd{font:900 25px/30px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.note{font-size:16px;line-height:24px;color:var(--ink-muted);margin-top:var(--space-3)}
+a,button,input{font-family:inherit}
+:focus-visible{outline:3px solid var(--black);outline-offset:2px;box-shadow:0 0 0 2px var(--white)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font:900 19px/24px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-decoration:none;color:var(--white);background:var(--persimmon);border:2px solid var(--persimmon);border-radius:var(--radius-none);padding:var(--space-2) var(--space-4);cursor:pointer}
+.btn:hover{background:var(--black);border-color:var(--black)}
+.page{position:relative;min-height:150px;border:1px solid var(--gray-60);padding:var(--space-3) var(--space-3) 80px}
+.page p{font-size:16px;line-height:24px;max-width:46ch}
+.qe{position:absolute;right:0;bottom:var(--space-3);min-height:48px;font:900 19px/24px var(--font-display);letter-spacing:.02em;text-transform:uppercase;color:var(--white);background:var(--black);border:2px solid var(--black);border-radius:var(--radius-none);padding:var(--space-2) var(--space-4);cursor:pointer}
+.qe:hover{background:var(--white);color:var(--black)}
+.qe:focus-visible{outline:3px solid var(--white);outline-offset:-7px;box-shadow:none}
+.qe:hover:focus-visible{outline-color:var(--black)}
+</style></head><body>
+<div class="page">
+<p>Any public page. The button stays fixed to the bottom right corner of the window while the page scrolls. Tell visitors about it near the top of the page: "Need to leave fast? Use Quick Escape."</p>
+<button class="qe" type="button" aria-describedby="qd">Quick escape</button><span id="qd" hidden>Leaves this site right away and opens a weather site.</span>
+</div>
+</body></html>

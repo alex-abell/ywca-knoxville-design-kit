@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TextField</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<style>*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:var(--space-3);background:var(--ground);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:30px}
+h1,h2,h3,p{margin:0}
+.hd{font:900 25px/30px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.note{font-size:16px;line-height:24px;color:var(--ink-muted);margin-top:var(--space-3)}
+a,button,input{font-family:inherit}
+:focus-visible{outline:3px solid var(--black);outline-offset:2px;box-shadow:0 0 0 2px var(--white)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font:900 19px/24px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-decoration:none;color:var(--white);background:var(--persimmon);border:2px solid var(--persimmon);border-radius:var(--radius-none);padding:var(--space-2) var(--space-4);cursor:pointer}
+.btn:hover{background:var(--black);border-color:var(--black)}
+.cols{display:flex;gap:var(--space-5);flex-wrap:wrap;align-items:flex-start}
+.f{display:grid;gap:var(--space-1);width:100%;max-width:300px}
+label{font:700 14px/20px var(--font-body);letter-spacing:.04em;text-transform:uppercase}
+.hint{font-size:16px;line-height:24px;color:var(--ink-muted)}
+input{width:100%;height:48px;font:400 18px/24px var(--font-body);color:var(--ink);padding:0 var(--space-3);border:2px solid var(--gray-60);border-radius:var(--radius-none);background:var(--white)}
+.err input{border:4px solid var(--black);padding:0 14px}
+.msg{font-size:16px;line-height:24px;font-weight:700}
+</style></head><body>
+<div class="cols">
+<div class="f"><label for="a">Email address</label><input id="a" type="email" autocomplete="email" value="name@example.org"></div>
+<div class="f err"><label for="b">Entry date</label><span class="hint" id="bh">Year, month, day. For example 2026-01-15.</span><input id="b" value="1/15" aria-invalid="true" aria-describedby="bh be"><span class="msg" id="be">Error: enter the date as year-month-day, like 2026-01-15.</span></div>
+</div>
+</body></html>

@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LocationCard</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<style>*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:var(--space-3);background:var(--ground);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:30px}
+h1,h2,h3,p{margin:0}
+.hd{font:900 25px/30px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.note{font-size:16px;line-height:24px;color:var(--ink-muted);margin-top:var(--space-3)}
+a,button,input{font-family:inherit}
+:focus-visible{outline:3px solid var(--black);outline-offset:2px;box-shadow:0 0 0 2px var(--white)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font:900 19px/24px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-decoration:none;color:var(--white);background:var(--persimmon);border:2px solid var(--persimmon);border-radius:var(--radius-none);padding:var(--space-2) var(--space-4);cursor:pointer}
+.btn:hover{background:var(--black);border-color:var(--black)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:var(--space-4)}
+.card{display:flex;flex-direction:column;text-decoration:none;color:inherit}
+.ph{aspect-ratio:3/2;background:var(--gray-20);display:flex;align-items:center;justify-content:center;color:var(--black);font-size:16px}
+.cap{flex:1;background:var(--black);color:var(--white);padding:var(--space-3);min-height:84px;display:flex;align-items:center;justify-content:center;text-align:center}
+.cap .hd{font-size:20px;line-height:24px}
+.card:hover .cap{background:var(--persimmon)}
+</style></head><body>
+<div class="cards">
+<a class="card" href="#"><div class="ph">Photo</div><div class="cap"><h3 class="hd">Downtown Knoxville</h3></div></a>
+<a class="card" href="#"><div class="ph">Photo</div><div class="cap"><h3 class="hd">Oak Ridge &amp; Anderson County</h3></div></a>
+<a class="card" href="#"><div class="ph">Photo</div><div class="cap"><h3 class="hd">Phyllis Wheatley Center</h3></div></a>
+</div>
+<p class="note">Gray blocks stand in for photos YWCA supplies.</p>
+</body></html>

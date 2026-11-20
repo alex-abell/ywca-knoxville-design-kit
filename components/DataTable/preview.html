@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DataTable</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<style>*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:var(--space-3);background:var(--ground);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:30px}
+h1,h2,h3,p{margin:0}
+.hd{font:900 25px/30px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.note{font-size:16px;line-height:24px;color:var(--ink-muted);margin-top:var(--space-3)}
+a,button,input{font-family:inherit}
+:focus-visible{outline:3px solid var(--black);outline-offset:2px;box-shadow:0 0 0 2px var(--white)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font:900 19px/24px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-decoration:none;color:var(--white);background:var(--persimmon);border:2px solid var(--persimmon);border-radius:var(--radius-none);padding:var(--space-2) var(--space-4);cursor:pointer}
+.btn:hover{background:var(--black);border-color:var(--black)}
+.scroll{overflow-x:auto;max-width:640px;padding:var(--space-1)}
+table{border-collapse:collapse;width:100%;max-width:640px;font-size:16px;line-height:24px}
+caption{caption-side:top;text-align:left;font:700 20px/26px var(--font-body);padding-bottom:var(--space-2)}
+th,td{padding:var(--space-2);text-align:left;vertical-align:top}
+thead th{font-weight:700;border-bottom:2px solid var(--black)}
+tbody th{font-weight:400}
+tbody th,tbody td{border-bottom:1px solid var(--rule)}
+tfoot th,tfoot td{font-weight:700;border-top:2px solid var(--black)}
+.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+</style></head><body>
+<div class="scroll" role="region" aria-labelledby="dt-cap" tabindex="0"><table>
+<caption id="dt-cap">Where women went next</caption>
+<thead><tr><th scope="col">Destination</th><th scope="col" class="n">Women</th><th scope="col" class="n">Share</th></tr></thead>
+<tbody>
+<tr><th scope="row">Rental housing, no subsidy</th><td class="n">44</td><td class="n">27%</td></tr>
+<tr><th scope="row">Rental housing, with subsidy</th><td class="n">37</td><td class="n">23%</td></tr>
+<tr><th scope="row">Staying with family or friends, temporary</th><td class="n">30</td><td class="n">19%</td></tr>
+<tr><th scope="row">Place not meant for habitation</th><td class="n">Fewer than 5</td><td class="n">Hidden</td></tr>
+<tr><th scope="row">All other destinations</th><td class="n">47</td><td class="n">29%</td></tr>
+</tbody>
+<tfoot><tr><th scope="row">All women who left</th><td class="n">162</td><td class="n">100%</td></tr></tfoot>
+</table></div>
+<p class="note">Illustration only. Every number here is invented.</p>
+</body></html>

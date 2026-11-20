@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HighlightBar</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../tokens/tokens.css">
+<style>*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:var(--space-3);background:var(--ground);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:30px}
+h1,h2,h3,p{margin:0}
+.hd{font:900 25px/30px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.note{font-size:16px;line-height:24px;color:var(--ink-muted);margin-top:var(--space-3)}
+a,button,input{font-family:inherit}
+:focus-visible{outline:3px solid var(--black);outline-offset:2px;box-shadow:0 0 0 2px var(--white)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;font:900 19px/24px var(--font-display);text-transform:uppercase;letter-spacing:.02em;text-decoration:none;color:var(--white);background:var(--persimmon);border:2px solid var(--persimmon);border-radius:var(--radius-none);padding:var(--space-2) var(--space-4);cursor:pointer}
+.btn:hover{background:var(--black);border-color:var(--black)}
+figure{margin:0;max-width:720px}
+figure ul{list-style:none;margin:0;padding:0}
+figcaption{font:700 20px/26px var(--font-body);margin-bottom:var(--space-3);text-wrap:balance}
+.r{display:grid;grid-template-columns:minmax(120px,200px) 1fr;gap:var(--space-3);align-items:center;margin-bottom:var(--space-2);font-size:16px;line-height:24px}
+.r small{display:block;font-size:14px;line-height:20px;color:var(--ink-muted)}
+.track{display:flex;align-items:center;gap:var(--space-2);border-left:2px solid var(--black)}
+.b{flex:none;height:32px;background:var(--gray-50);width:calc((100% - 64px) * var(--v))}
+@media (max-width:480px){.r{grid-template-columns:1fr;gap:var(--space-1)}}
+.key .b{background:var(--persimmon)}
+.key .l,.key .v{font-weight:700}
+.v{font-variant-numeric:tabular-nums}
+</style></head><body>
+<figure role="group" aria-labelledby="hbt">
+<figcaption id="hbt">Women who attend more leave for stable housing more often</figcaption>
+<ul><li class="r key"><span class="l">High engagement<small>54 women</small></span><div class="track"><div class="b" style="--v:.74"></div><span class="v">74%</span></div></li>
+<li class="r"><span class="l">Medium engagement<small>54 women</small></span><div class="track"><div class="b" style="--v:.59"></div><span class="v">59%</span></div></li>
+<li class="r"><span class="l">Low engagement<small>54 women</small></span><div class="track"><div class="b" style="--v:.43"></div><span class="v">43%</span></div></li></ul>
+</figure>
+<p class="note">Sample numbers from invented practice data.</p>
+</body></html>
